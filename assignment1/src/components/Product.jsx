@@ -1,0 +1,13 @@
+import React from 'react';
+import Card from './Card.jsx';
+
+function Product({ title, price }) {
+  return (
+    <Card>
+      <h2>{title}</h2>
+      <p>Price: ${price}</p>
+    </Card>
+  );
+}
+
+export default Product;

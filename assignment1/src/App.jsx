@@ -1,14 +1,11 @@
 import React from 'react';
-import Card from './components/Card.jsx';
+import Product from './components/Product.jsx';
 
 function App() {
   return (
     <main>
       <h1>React Product Dashboard</h1>
-      <Card>
-        <h2>Products</h2>
-        <p>The product list will appear here.</p>
-      </Card>
+      <Product title="Laptop" price={1200} />
     </main>
   );
 }
